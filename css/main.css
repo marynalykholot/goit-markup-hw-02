@@ -13,35 +13,36 @@
 
 }
 
+
+
+/* Головна сторінка */
 body{
     font-family: Roboto,sans-serif ;
 }
-/* Головна сторінка */
 
 .list{
     list-style:none;
 }
 
 a{
-    text-decoration: none;
+text-decoration: none;
 }
 .page-header{
-    background-color: var(--white)
+background-color: var(--white)
 
 }
 .page-header .logo-nav:hover
 {
-    color: var(--accent-color);
+color: var(--accent-color);
 
 }
 .page-header .logo-nav:focus{
-    color: var(--main-ctext);
+color: var(--main-ctext);
 }
 
 .logo{
 color:var(--accent-color);
 font-family: Raleway,cursive;
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -50,7 +51,6 @@ letter-spacing: 0.03em;
 .logo-main {
  color:var(--black);
 font-family: Raleway,cursive;
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -74,24 +74,22 @@ letter-spacing: 0.02em;
 }
 
 
-.site-nav .link:hover{
-    color: var(--accent-color);
-}
+.site-nav .link:hover,
 .site-nav .link:focus{
-    color:var(--accent-color)
+color: var(--accent-color);
 }
 
 .auts-nav .link{
-    color: var(--additional-ctext);
+color: var(--additional-ctext);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 
 }
  .auts-nav .link:hover, 
  .auts-nav .link:focus{
 color: var(--accent-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
  }
 
 /* HERO */
@@ -119,19 +117,21 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
+cursor: pointer;
 
 }
+
+
 .hero-button:hover,
 .hero-button:focus{
-    color: #2196F3;
+color: #2196F3;
 }
 
 
 /* BENEFITS */
 
 .section{
-    background-color:var(--lightest-bgc)
+ background-color:var(--lightest-bgc)
 }
 
 .benefits .title{
@@ -163,7 +163,7 @@ letter-spacing: 0.03em;
 /*OUR TEAM*/
 
 .comand{
-    background-color: var(--lighter-bgc);
+background-color: var(--lighter-bgc);
 }
 
 .title-comand{
@@ -198,12 +198,12 @@ letter-spacing: 0.03em;
 
 /* FOOTER */
 .section-footer{
-    background-color: var(--dark-bgc);
+background-color: var(--dark-bgc);
 }
  
 .section-footer .logo-nav:hover
 {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 .section-footer .logo-nav:focus{
@@ -213,18 +213,18 @@ color:var(--white);
 
  .section-footer .mail-footer:hover,
  .section-footer .mail-footer:focus{
-    color: var(--accent-color);
+ color: var(--accent-color);
     
 }
 
 .section-footer .address-footer:hover,
 .section-footer .address-footer:focus{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 .section-footer .tel-footer:hover,
 .section-footer .tel-footer:focus{
-    color: var(--accent-color);
+ color: var(--accent-color);
 }
 
 .logo-footer{
@@ -269,23 +269,25 @@ letter-spacing: 0.03em;
 /* PORTFOLIO HTML */
 
 .portfolio{
-    background-color:var(--lightest-bgc);
+background-color:var(--lightest-bgc);
 
 }
  .portfolio-button{
-    background-color: var(--lighter-bgc);
-    color:var(--main-ctext);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
+ cursor: pointer;
+ background-color: var(--lighter-bgc);
+ color:var(--main-ctext);
+ font-family: inherit;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.6;
+ text-align: center;
+ letter-spacing: 0.03em;
+    
  }
  .portfolio-button:hover,
  .portfolio-button:focus{
-    background-color: var(--accent-color);
-    color: var(--white);
+ background-color: var(--accent-color);
+ color: var(--white);
 
  }
  .portfolio-title{
@@ -304,7 +306,7 @@ letter-spacing: 0.03em;
  }
 
  .portfolio-img{
-    background-color:var(--container-bg);
+background-color:var(--container-bg);
  }
 
 
